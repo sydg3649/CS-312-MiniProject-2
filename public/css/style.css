@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('/images/weather.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ADF5FF;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for contrast */
+  padding: 30px;
+  border-radius: 12px;
+}
+
+form input, form button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+form input {
+  border: none;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #6c3a5c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #b298dc;
+}

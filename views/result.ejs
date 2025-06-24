@@ -1,0 +1,10 @@
+<h2>Weather in <%= city %> tomorrow:</h2>
+<% if (willRain === true) { %>
+  <p>Yes, it will rain.</p>
+<% } else if (willRain === false) { %>
+  <p>No, it will not rain.</p>
+<% } else { %>
+  <p><%= error %></p>
+<% } %>
+
+<a href="/">Check another city</a>
